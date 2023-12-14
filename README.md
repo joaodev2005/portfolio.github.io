@@ -28,7 +28,7 @@ O projeto foi desenvolvido com as seguintes ferramentas:
 
 ### ​👷‍♂️​ Acessar o Projeto
 
-<a href="https://https://github.com/joaodev2005/portfolio.github.io/tree/main">Acesse aqui</a>🔗 o código fonte pelo GitHub.
+<a href="https://github.com/joaodev2005/portfolio.github.io/tree/main">Acesse aqui</a>🔗 o código fonte pelo GitHub.
 
 ### 📝 License
 
