@@ -30,16 +30,6 @@ O projeto foi desenvolvido com as seguintes ferramentas:
 
 <a href="https://github.com/brseghese/brseghese.github.io/tree/main">Acesse aqui</a>🔗 o código fonte pelo GitHub.
 
-Faça o <a href="https://github.com/brseghese/brseghese.github.io/archive/refs/heads/main.zip">Download aqui</a>🔗 do código fonte no formato zip.
-
-Clone o repositório:
-
-```
-git clone https://github.com/brseghese/brseghese.github.io.git
-```
-
----
-
 ### 📝 License
 
 Esse projeto é licenciado pela MIT License. Clique [aqui](https://pt.wikipedia.org/wiki/Licen%C3%A7a_MIT)🔗 para mais detalhes.
