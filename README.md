@@ -22,7 +22,7 @@ O projeto foi desenvolvido com as seguintes ferramentas:
 
 ---
 
-### 🚀 ​ [Clique aqui](https://brseghese.github.io)🔗 e veja o projeto no ar.
+### 🚀 ​ [Clique aqui](https://joaodev2005.github.io/portfolio.github.io/)🔗 e veja o projeto no ar.
 
 ---
 
