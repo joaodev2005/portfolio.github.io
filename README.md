@@ -42,6 +42,6 @@ Esse projeto é licenciado pela MIT License. Clique [aqui](https://pt.wikipedia.
 
 ---
 
-> Desenvolvido com ❤️ por **João Victor**
+> Desenvolvido com ❤️ por **João Victor** 
 
 ---
