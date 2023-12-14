@@ -1,7 +1,7 @@
 <h1 align="center" id="topo">Meu Portfólio </h1>
 
 <div align="center">
-<img width='600px' src="./assets/mockup.png" width="35px"/>
+<img width='600px' src="./images/mockup.png" width="35px"/>
 </div>
 
 ### 💻 Projeto
