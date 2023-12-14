@@ -94,6 +94,9 @@
         margin-top: 2rem;
     }
 
+    .socials-about {
+        margin-top: 0;
+    }
 
     .toggle {
         display: flex;

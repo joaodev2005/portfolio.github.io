@@ -5,7 +5,6 @@ const sections = document.querySelectorAll('section')
 const navLink = document.querySelectorAll('header nav ul li a')
 const copyText = document.querySelector('.copy-text')
 
-
 const animation = () => {
     menuToggle.classList.toggle('active')
 
@@ -33,3 +32,10 @@ copyText.querySelector('button').addEventListener('click', () => {
         copyText.classList.remove('active')
     }, 1000)
 }) 
+
+navLink.forEach(link => {
+    link.addEventListener('click', () => {
+        link.classList.remove('ativado')
+        animation();
+    });
+});

@@ -268,6 +268,12 @@ nav ul li a.active {
     background-color: var(--github-color);
 }
 
+#curri:hover {
+    outline-color: #E2725B;
+    color: white;
+    background-color: #E2725B;
+}
+
 .box-socials i:hover {
     animation: shake 0.25s;
     -webkit-animation: shake 0.25s;
@@ -364,6 +370,10 @@ nav ul li a.active {
     justify-content: center;
 }
 
+.about-img {
+    position: relative;
+}
+
 .about-img img {
     border-radius: 17px;
     height: 350px;
@@ -382,7 +392,7 @@ nav ul li a.active {
 
 .about-text h3 {
     color: #147efb;
-    font-size: 1.7rem;
+    font-size: 17px;
     font-family: var(--font-poppins);
     font-weight: 700;
     margin-bottom: 1rem;
@@ -404,6 +414,16 @@ nav ul li a.active {
     font-weight: 500;
     line-height: 1.5;
     margin-bottom: 35px;
+}
+
+.text-emphasis {
+    color: var(--color-dark);
+    text-transform: uppercase;
+}
+
+.socials-about {
+    margin-bottom: 0;
+    gap: 2rem;
 }
 
 .btn {
@@ -456,7 +476,7 @@ nav ul li a.active {
 
 .project-content p {
     color: #147efb;
-    font-size: 27px;
+    font-size: 17px;
     font-weight: 700;
     margin-bottom: 1rem;
     text-transform: uppercase;
