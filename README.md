@@ -7,6 +7,7 @@
 ### 💻 Projeto
 
 Meu portfólio.
+Em construção 👷🏻‍♂️
 
 ---
 
