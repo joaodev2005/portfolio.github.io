@@ -182,6 +182,10 @@
     .container {
         padding: 0 1.7rem;
     }
+
+    .links a {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 400px) {
