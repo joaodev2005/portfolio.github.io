@@ -173,3 +173,23 @@
     }
 }
 
+@media (max-width: 460px) {
+    .about-img img {
+        height: auto;
+        width: 90%;
+    }
+
+    .container {
+        padding: 0 1.7rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .projects-grid .pro__1 {
+        width: 100%;
+    }
+
+    .projects-grid .pro__text {
+        width: 100%;
+    }
+}

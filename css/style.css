@@ -703,6 +703,10 @@ nav ul li a.active {
     outline: none;
 }
 
+.copy-text input {
+    width: 280px;
+}
+
 .copy-text button {
     padding: 10px;
     background-color: #5784f5;
