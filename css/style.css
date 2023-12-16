@@ -639,6 +639,7 @@ nav ul li a.active {
     color: #2d2e32;
     font-size: 25px;
     font-family: var(--font-poppins);
+    font-size: clamp(20px, 5vw, 30px);
 }
 
 .contact__icons {
