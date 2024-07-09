@@ -554,6 +554,10 @@ nav ul li a.active {
     -o-transform: translateY(-83%);
 } */
 
+.projects-grid .cart  {
+    height: 100%;
+}
+
 .projects-grid .pro__text {
     display: flex;
     flex-direction: column;
@@ -583,6 +587,7 @@ nav ul li a.active {
     display: flex;
     gap: 1rem;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 1rem;
 }
 
