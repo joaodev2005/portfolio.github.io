@@ -546,13 +546,13 @@ nav ul li a.active {
     transition: transform 10s ease-in-out 0s;
 }
 
-.projects-grid .pro__img img:hover {
+/* .projects-grid .pro__img img:hover {
     transform: translateY(-83%);
     -webkit-transform: translateY(-83%);
     -moz-transform: translateY(-83%);
     -ms-transform: translateY(-83%);
     -o-transform: translateY(-83%);
-}
+} */
 
 .projects-grid .pro__text {
     display: flex;
