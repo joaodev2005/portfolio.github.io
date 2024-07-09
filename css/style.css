@@ -353,6 +353,18 @@ nav ul li a.active {
     animation-delay: .11s;
 }
 
+.skills ul li:nth-child(7) {
+    animation-delay: .13s;
+}
+
+.skills ul li:nth-child(8) {
+    animation-delay: .15s;
+}
+
+.skills ul li:nth-child(9) {
+    animation-delay: .17s;
+}
+
 
 /* sobre */
 
