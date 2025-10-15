@@ -8,7 +8,6 @@
 
 Meu portfólio.
 <br>
-Em construção 👷🏻‍♂️
 
 ---
 
