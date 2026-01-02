@@ -46,3 +46,14 @@ Esse projeto é licenciado pela MIT License. Clique [aqui](https://pt.wikipedia.
 > Desenvolvido com ❤️ por **João Victor** 
 
 ---
+
+## Alterações recentes
+
+- 2026-01-02: Refatorado `index.html` para HTML semântico e padrões modernos:
+	- Usei elementos semânticos: `header`, `nav`, `main`, `section`, `article`, `footer`.
+	- Melhorei acessibilidade: `aria-*`, `skip-link`, labels em botões e links, `alt` em imagens.
+	- Reordenei carregamento de CSS (reset → styles → media queries) e carreguei Font Awesome com `defer`.
+	- Atualizei estrutura de projetos para usar `article` e listas para stacks.
+	- Pequenas correções: remoção de IDs duplicados e fechamento duplicado de tags.
+
+Se quiser, posso também ajustar pequenos estilos no CSS para combinar com a nova estrutura semântica.

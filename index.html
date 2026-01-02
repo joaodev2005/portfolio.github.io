@@ -3,198 +3,202 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfólio de João Victor — desenvolvedor Front-end. Projetos, stack e contato.">
+    <meta name="author" content="João Victor">
+    <meta name="theme-color" content="#ffffff">
     <title>Portfolio | João Victor - Front-end Developer</title>
 
+    <link rel="shortcut icon" href="https://icon-library.com/images/web-developer-icon/web-developer-icon-10.jpg" type="image/x-icon">
 
-    <link rel="shortcut icon" href="https://icon-library.com/images/web-developer-icon/web-developer-icon-10.jpg"
-        type="image/x-icon">
-
-    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS: reset primeiro, depois estilos do projeto e media queries -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/scrollbar.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mediaQuerry.css">
 
+    <!-- Font Awesome (icons) -->
+    <script src="https://kit.fontawesome.com/ca4923168d.js" crossorigin="anonymous" defer></script>
 </head>
 
 <body>
+    <a class="skip-link" href="#main">Ir para o conteúdo</a>
+
     <header>
-        <nav class="nav">
-            <h3><a href="#">João.dev</a></h3>
-            <ul class="nav-list">
-                <li><a id="item" href="#home">Home</a></li>
-                <li><a id="item" href="#about">Sobre</a></li>
-                <li><a id="item" href="#projects">Projetos</a></li>
-                <li><a id="item" href="#contact">Contato</a></li>
-            </ul>
-            <div class="toggle">
-                <span></span>
-                <span></span>
-                <span></span>
+        <nav class="nav" aria-label="Navegação principal">
+            <div class="nav-inner container">
+                <a class="brand" href="#home" aria-label="Voltar ao início">João.dev</a>
+
+                <button class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="Abrir menu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </button>
+
+                <ul id="primary-navigation" class="nav-list" role="menubar">
+                    <li role="none"><a class="nav-item" role="menuitem" href="#home">Home</a></li>
+                    <li role="none"><a class="nav-item" role="menuitem" href="#about">Sobre</a></li>
+                    <li role="none"><a class="nav-item" role="menuitem" href="#projects">Projetos</a></li>
+                    <li role="none"><a class="nav-item" role="menuitem" href="#contact">Contato</a></li>
+                </ul>
             </div>
         </nav>
     </header>
-    <main>
-        <section id="home" class="hero">
+
+    <main id="main">
+        <section id="home" class="hero" aria-labelledby="hero-heading">
             <div class="container">
-                <div class="content">
-                    <div class="hero-main">
-                        <div class="hero-text">
-                            <h1>Desenvolvedor Front-end</h1>
-                            <p>Olá, sou o João Victor. Um desenvolvedor front-end apaixonado por tecnologia, Brasil</p>
-                            <div class="box-socials">
-                                <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-98b9562a5/" target="_blank"><i class="fa-brands fa-linkedin" id="link"></i></a>
-                                <a href="https://github.com/joaodev2005" target="_blank"><i class="fa-brands fa-github" id="git"></i></a>
-                            </div>
+                <div class="hero-main">
+                    <div class="hero-text">
+                        <h1 id="hero-heading">Desenvolvedor Front-end</h1>
+                        <p>Olá, sou o João Victor — desenvolvedor front-end apaixonado por tecnologia, baseado no Brasil.</p>
+
+                        <div class="box-socials" aria-label="Redes sociais">
+                            <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-98b9562a5/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/joaodev2005" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
                         </div>
-                        <div class="hero-img"></div>
                     </div>
-                    <div class="skills">
-                        <p>Tech Stack</p>
-                        <div class="tecnologias">
-                            <ul>
-                                <li><img src="images/html5-original.svg"></li>
-                                <li><img src="images/css3-original.svg"></li>
-                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" /></li>
-                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"/></li>
-                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" /></li>
-                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" /></li>
-                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" /></li>
+
+                    <div class="hero-visual" aria-hidden="true"></div>
+                </div>
+
+                <div class="skills" aria-labelledby="skills-heading">
+                    <h2 id="skills-heading">Tech Stack</h2>
+                    <ul class="tecnologias" aria-label="Tecnologias">
+                        <li><img src="images/html5-original.svg" alt="HTML5 logo"></li>
+                        <li><img src="images/css3-original.svg" alt="CSS3 logo"></li>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS logo"></li>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="Sass logo"/></li>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript logo"></li>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React logo"></li>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript logo"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about" aria-labelledby="about-heading">
+            <div class="container about-inner">
+                <figure class="about-img">
+                    <img src="images/about-img.62b47e7f183d4b4e9feb.webp" alt="Foto do João Victor">
+                </figure>
+
+                <div class="about-text">
+                    <h2 id="about-heading">Sobre mim</h2>
+                    <p class="location">São Paulo</p>
+                    <p>Sou desenvolvedor Front-end, focado em criar interfaces responsivas e experiências de usuário claras. Estou sempre aprendendo. Minhas principais tecnologias: <strong>JavaScript</strong>, <strong>HTML</strong> e <strong>CSS</strong>.</p>
+
+                    <div class="box-socials socials-about" aria-label="Redes sociais e currículo">
+                        <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-98b9562a5/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/joaodev2005" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="curriculo.pdf" download="curriculo" aria-label="Baixar currículo"><i class="fa-solid fa-note-sticky"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="project" aria-labelledby="projects-heading">
+            <div class="container">
+                <header class="project-header">
+                    <p>Projetos</p>
+                    <h2 id="projects-heading">Alguns dos meus trabalhos como desenvolvedor</h2>
+                </header>
+
+                <div class="projects-grid">
+                    <article class="project-card" aria-labelledby="p1-title">
+                        <figure class="pro__img">
+                            <img src="images/capas/img1.png" alt="Screenshot do Booking_Barber">
+                        </figure>
+                        <div class="pro__text">
+                            <h3 id="p1-title">Booking_Barber</h3>
+                            <p>Aplicação de reservas para barbearias com interface intuitiva e funções de pesquisa e agendamento. Desenvolvida com abordagem mobile-first.</p>
+                            <ul class="stack-list">
+                                <li>React</li>
+                                <li>TypeScript</li>
+                                <li>JavaScript</li>
+                                <li>NextJS</li>
+                                <li>Tailwind</li>
                             </ul>
+                            <div class="links">
+                                <a href="https://github.com/joaodev2005/Booking_Barber" target="_blank" rel="noopener">Code <i class="fa-brands fa-github"></i></a>
+                                <a href="https://booking-barber-seven.vercel.app/" target="_blank" rel="noopener">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
                         </div>
-                    </div>
+                    </article>
+
+                    <article class="project-card" aria-labelledby="p2-title">
+                        <figure class="pro__img">
+                            <img src="images/capas/banner-cart.png" alt="Screenshot do ShoppingCart">
+                        </figure>
+                        <div class="pro__text">
+                            <h3 id="p2-title">ShoppingCart</h3>
+                            <p>Carrinho de compras feito com React e CSS, utilizando a API do Mercado Livre para buscar produtos.</p>
+                            <ul class="stack-list">
+                                <li>React</li>
+                                <li>CSS</li>
+                                <li>API</li>
+                            </ul>
+                            <div class="links">
+                                <a href="https://github.com/joaodev2005/shoppingcart" target="_blank" rel="noopener">Code <i class="fa-brands fa-github"></i></a>
+                                <a href="https://shoppingcart-one-gray.vercel.app/" target="_blank" rel="noopener">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" aria-labelledby="p3-title">
+                        <figure class="pro__img">
+                            <img src="images/capas/capaBikcraft.png" alt="Screenshot do Bikcraft">
+                        </figure>
+                        <div class="pro__text">
+                            <h3 id="p3-title">Bikcraft</h3>
+                            <p>Plataforma para encontrar, comparar e reservar bicicletas, com interface amigável e fácil navegação.</p>
+                            <ul class="stack-list">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <div class="links">
+                                <a href="https://github.com/joaodev2005/Bikcraft/tree/main" target="_blank" rel="noopener">Code <i class="fa-brands fa-github"></i></a>
+                                <a href="https://joaodev2005.github.io/Bikcraft/" target="_blank" rel="noopener">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" aria-labelledby="p4-title">
+                        <figure class="pro__img">
+                            <img src="images/capas/218077675-f50ac9ae-8d2c-4196-aed8-f4490e142960.png" alt="Screenshot do Car Rental">
+                        </figure>
+                        <div class="pro__text">
+                            <h3 id="p4-title">Car Rental</h3>
+                            <p>Site para pesquisar, comparar e reservar carros com diferentes modelos e faixas de preço.</p>
+                            <ul class="stack-list">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <div class="links">
+                                <a href="https://github.com/joaodev2005/Car-Rental" target="_blank" rel="noopener">Code <i class="fa-brands fa-github"></i></a>
+                                <a href="https://joaodev2005.github.io/Car-Rental/" target="_blank" rel="noopener">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>
-        <section class="about" id="about">
-            <div class="container-about">
-                <div class="about-content">
-                    <div class="about-img">
-                        <img src="images/about-img.62b47e7f183d4b4e9feb.webp" alt="">
-                    </div>
-                    <div class="about-text">
-                        <h3>SOBRE MIM</h3>
-                        <h4>São Paulo</h4>
-                        <p>Olá! Sou desenvolvedor Front-end. Excelente em projetar e manter sites responsivos que
-                            oferecem uma experiência de usuário tranquila, atualmente sigo meus estudos, tendo em mente
-                            que estamos em constante aprendizado. Minha especialidade inclui <span class="text-emphasis">JavaScript</span>, <span class="text-emphasis">HTML</span> e <span class="text-emphasis">CSS</span>.
-                        </p>
-                        <div class="box-socials socials-about">
-                            <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-98b9562a5/" target="_blank"><i class="fa-brands fa-linkedin" id="link"></i></a>
-                            <a href="https://github.com/joaodev2005" target="_blank"><i class="fa-brands fa-github" id="git"></i></a>
-                            <a href="curriculo.pdf" download="curriculo"><i class="fa-solid fa-note-sticky" id="curri"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="projects" class="project">
-            <div class="container">
-                <div class="project-content">
-                    <p>PROJETOS</p>
-                    <h3>Alguns dos meus trabalhos como desenvolvedor</h3>
-                    
-                    <div class="projects-grid">
-                        <div class="pro pro__1 reversed-proj">
-                            <div class="pro__img">
-                                <img src="images/capas/img1.png" alt="">
-                            </div>
-                            <div class="pro__text">
-                                <h3>Booking_Barber</h3>
-                                <p>Aplicação de reservas para barbearias com interface intuitiva e funções de pesquisa e agendamento. Desenvolvida com abordagem mobile-first para garantir uma experiência responsiva em dispositivos móveis.</p>
-                                <div class="stack">
-                                    <p>React</p>
-                                    <p>TypeScript</p>
-                                    <p>JavaScript</p>
-                                    <p>NextJS</p>
-                                    <p>Tailwind</p>
-                                </div>
-                                <div class="links">
-                                    <a href="https://github.com/joaodev2005/Booking_Barber" target="_blank">Code <i class="fa-brands fa-github"></i></a>
-                                    <a href="https://booking-barber-seven.vercel.app/" target="_blank">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pro pro__1 undefined">
-                            <div class="pro__img cart">
-                                <img src="images/capas/banner-cart.png"
-                                    alt="website">
-                            </div>
-                            <div class="pro__text">
-                                <h3>ShoppingCart</h3>
-                                <p>Carrinho de compras feito com React e CSS, utilizando a API do Mercado Livre para buscar produtos</p>
-                                <div class="stack">
-                                    <p>React</p>
-                                    <p>CSS</p>
-                                    <p>API</p>
-                                </div>
-                                <div class="links">
-                                    <a href="https://github.com/joaodev2005/shoppingcart" target="_blank">Code <i class="fa-brands fa-github"></i></a>
-                                    <a href="https://shoppingcart-one-gray.vercel.app/" target="_blank">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pro pro__1 reversed-proj">
-                            <div class="pro__img">
-                                <img src="images/capas/capaBikcraft.png" alt="">
-                            </div>
-                            <div class="pro__text">
-                                <h3>Bikcraft</h3>
-                                <p>O Bikcraft é a plataforma ideal para encontrar, comparar e reservar a bicicleta perfeita para suas necessidades. Com uma interface amigável, você pode explorar uma ampla variedade de bicicletas, com diferentes tipos, estilos e faixas de preço.</p>
-                                <div class="stack">
-                                    <p>HTML</p>
-                                    <p>CSS</p>
-                                    <p>JavaScript</p>
-                                </div>
-                                <div class="links">
-                                    <a href="https://github.com/joaodev2005/Bikcraft/tree/main" target="_blank">Code <i class="fa-brands fa-github"></i></a>
-                                    <a href="https://joaodev2005.github.io/Bikcraft/" target="_blank">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pro pro__1 undefined">
-                            <div class="pro__img">
-                                <img src="images/capas/218077675-f50ac9ae-8d2c-4196-aed8-f4490e142960.png"
-                                    alt="website">
-                            </div>
-                            <div class="pro__text">
-                                <h3>Car Rental</h3>
-                                <p>O site oferece uma interface fácil de usar para pesquisar, comparar e reservar carros
-                                    de uma ampla seleção de veículos que variam em marca, modelo e preço.</p>
-                                <div class="stack">
-                                    <p>HTML</p>
-                                    <p>CSS</p>
-                                    <p>JavaScript</p>
-                                </div>
-                                <div class="links">
-                                    <a href="https://github.com/joaodev2005/Car-Rental" target="_blank">Code <i class="fa-brands fa-github"></i></a>
-                                    <a href="https://joaodev2005.github.io/Car-Rental/" target="_blank">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="pro pro__1 reversed-proj">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="contact" id="contact">
+
+        <section id="contact" class="contact" aria-labelledby="contact-heading">
             <div class="container">
                 <div class="contact__content">
-                    <div class="contact__title">
-                        <p>CONTATO</p>
-                        <h3>Precisando de um programador? <br> Vamos trabalhar juntos</h3>
-                    </div>
-                    <div class="contact__icons">
-                        <div class="label">
-                            Me mande um Email
-                            <i class="fa-solid fa-paper-plane"></i>
-                        </div>
-                        <div class="copy-text">
-                            <input type="text" class="text" value=" joaovictor.dev2005@gmail.com">
-                            <button>
-                                <i class="fa-solid fa-copy"></i>
+                    <h2 id="contact-heading">Contato</h2>
+                    <p>Precisando de um programador? Vamos trabalhar juntos.</p>
+
+                    <div class="contact__actions">
+                        <a class="mail-link" href="mailto:joaovictor.dev2005@gmail.com">Enviar email</a>
+
+                        <div class="copy-text" aria-label="Copiar email para área de transferência">
+                            <input type="email" class="text" value="joaovictor.dev2005@gmail.com" readonly aria-label="Email do contato">
+                            <button class="copy-btn" aria-label="Copiar email">
+                                <i class="fa-solid fa-copy" aria-hidden="true"></i>
                             </button>
                         </div>
                     </div>
@@ -202,19 +206,20 @@
             </div>
         </section>
     </main>
+
     <footer>
         <div class="footer-container">
             <div class="footercop">
-                <h3>Copyright © 2023. All rights are reserved</h3>
+                <small>Copyright © 2023. All rights reserved.</small>
                 <div class="footer-socials">
-                    <a href="https://github.com/joaodev2005" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-98b9562a5/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/joaodev2005" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-98b9562a5/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
         </div>
     </footer>
-    <script src="js/main.js"></script>
-    <script src="https://kit.fontawesome.com/ca4923168d.js" crossorigin="anonymous"></script>
+
+    <script src="js/main.js" defer></script>
 </body>
 
 </html>
